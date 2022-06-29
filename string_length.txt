@@ -1,0 +1,3 @@
+str=input("enter username : ")
+a=len(str)
+print("Enter larger length string") if a<10 else print("larger enough")
