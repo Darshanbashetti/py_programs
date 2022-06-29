@@ -1,0 +1,3 @@
+spam=input("enter a sentence :")
+result="darshan"
+print("yes") if result in spam else print("no")
