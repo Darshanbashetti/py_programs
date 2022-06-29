@@ -1,0 +1,17 @@
+n1 = int(input("Enter number 1: ")) 
+n2 = int(input("Enter number 2: "))
+n3 = int(input("Enter number 3: ")) 
+n4 = int(input("Enter number 4: ")) 
+
+alln = {n1, n2, n3, n4}
+print("All numbers: ",alln)
+if(n1 > n2 and n1 > n4) :
+    print("User 1's number  is greater")  
+elif(n2 > n3) :
+    print("User 2's number  is greater")
+elif(n3 > n4) :
+    print("User 3's number  is greater")
+elif(n4 > n2) :
+    print("User 4's number  is greater")
+else :
+    print("done")
